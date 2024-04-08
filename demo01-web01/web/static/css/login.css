@@ -1,0 +1,79 @@
+.floatTable{
+    float: right;
+    border: 1px  ;
+    font-family: "隶书";
+    font-size: 18px;
+    width: 400px;
+    height: 20px;
+    margin-top: 30px;
+    
+}
+
+.checkHintInfo{
+    float: right;
+    width: 150px;
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.body1{
+    width: 1300px;
+    height: 800px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.loginButton{
+    float: left;
+    margin-left: 400px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+
+.resetButton{
+    float: right;
+    margin-right: 120px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.registerButton{
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.fontCenter{
+    text-align: center;
+}
+
+.inputFrame{
+    width: 400px;
+    height: 20px;
+}
+
+.buttonDiv{
+margin-top: 20px;
+margin-right: 180px;
+width: 800px;
+height: 100px;
+float: right;
+
+}
+
+.fontRight{
+    text-align: right;
+}
+
+.loginForm{
+    padding-right: 300px;
+}
+
+body{
+    background-image: url("../img/loginBackground.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+}

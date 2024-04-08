@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/login.css" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="static/js/login.js" type="text/javascript"></script>
+    <title>Login</title>
+</head>
+<body>
+    <div name="head" ></div>
+
+    <div name="body" class="body1">
+        <div name="title">
+            <h1 class="fontCenter">欢迎使用日程管理系统</h1>
+        </div>
+        <div name="hintInfo" class="fontCenter">
+            <h3>请登录</h3>
+        </div>
+        <div name="table" class="loginForm">
+            <form action="user/login" method="POST" onsubmit="return checkLogin()">
+                <div class="checkHintInfo" id="checkUsernameInfo">请输入用户名</div>
+                <div class="floatTable" >
+                    <input name="username" id="username" type="text" class="inputFrame" onchange="checkUsername()"/>
+                </div>
+                <div class="floatTable fontRight">账号:
+
+                </div>
+                <div class="checkHintInfo" id="checkPasswordInfo">请输入密码</div>
+                <div class="floatTable">
+                    <input name="password" id="password" type="password" class="inputFrame" onchange="checkPassword()"/>
+                </div>
+                <div class="floatTable fontRight">密码:
+            
+                </div>
+                <div class="buttonDiv">
+                    <div class="registerButton">
+                        <a href="register.html">去注册</a>
+                    </div>
+                    <div class="resetButton">
+                        <input type="reset" value="重置">
+                    </div >
+                    <div class="loginButton" onclick="">
+                        <input type="submit" value="登录">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div name="foot"></div>
+</body>
+</html>
