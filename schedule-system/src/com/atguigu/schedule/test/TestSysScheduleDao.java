@@ -29,4 +29,10 @@ public class TestSysScheduleDao {
         List<SysSchedule> allList = sysScheduleDao.findAll();
         allList.forEach(System.out::println);
     }
+
+    @Test
+    public void testFindAllByUid(){
+        List<SysSchedule> allList = sysScheduleDao.findItemListByUid(1);
+        allList.forEach(System.out::println);
+    }
 }
